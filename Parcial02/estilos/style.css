@@ -1,0 +1,50 @@
+﻿html, body {
+    height: 95%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: linear-gradient(to bottom right, #343a40, #443a40);
+    color: white;
+}
+
+form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #F3F3E0, #F3F3F2);
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #80deea !important;
+}
+
+.card .row {
+    margin-bottom: 10px; /* Ajuste de margen inferior de cada fila */
+}
+
+    .card .row label {
+        margin-bottom: 5px; /* Ajuste de margen inferior de los labels */
+    }
+
+    .card .row .form-control {
+        margin-top: -5px; /* Ajuste de margen superior de los controles */
+    }
+
